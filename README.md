@@ -23,7 +23,14 @@ Feb 2024
 *Calvin Luo* \
 arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11970)] \
 25 Aug 2022
+Key Formulas - 
+1. Forward Diffusion Process : q(xt∣xt−1)=N(xt;1−βtxt−1,βtI)
+1.1. Where xt = noisy trajectory at timestep t
+1.2.       βt  = variance schedule controlling how much noise is added per step
 
+2. Reverse Deffusion Process: Formula - 125
+2.1. Where ϵθ = network predicting the noise at step t
+2.2        θ = learnable parameters
 ---
 
 ### **Denoising Diffusion Probabilistic Models (DDPM)**  
@@ -31,7 +38,11 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2208.11970)] \
 NeurIPS 2020. [[Paper](https://arxiv.org/abs/2006.11239)]  
 15 Jun 2020
 
-Introduced the modern formulation of diffusion models using a denoising score-matching framework.
+Key Formulas - 
+1. Forward Diffusion Process : q(xt∣xt−1)=N(xt;1−βtxt−1,βtI)
+1.1. Where xt = noisy trajectory at timestep t
+1.2.       βt  = variance schedule controlling how much noise is added per step
+
 
 ---
 
