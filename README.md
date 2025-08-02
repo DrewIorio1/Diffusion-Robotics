@@ -57,24 +57,15 @@ Key Formulas :
   1.2. xt = noisy sample at step t
   1.3. βt  =  variance schedule
 2. **DDIM Reverse Process**
-
-First, predict the original clean image \( \hat{x}_0 \) from \( x_t \):
-
-\[
-\hat{x}_0(x_t, t) = \frac{x_t - \sqrt{1 - \alpha_t} \, \epsilon_\theta(x_t, t)}{\sqrt{\alpha_t}}
-\]
-
-Then, update from \( x_t \) to \( x_{t-1} \) (deterministic DDIM case, \( \sigma_t = 0 \)):
-
-\[
-x_{t-1} = \sqrt{\bar{\alpha}_{t-1}} \, \hat{x}_0(x_t, t) + \sqrt{1 - \bar{\alpha}_{t-1}} \, \epsilon_\theta(x_t, t)
-\]
+2.1. Predict the original clean image (x0_hat) from noisy sample x_t:
+2.1.1 x0_hat = (x_t - sqrt(1 - α_t) * eps_theta(x_t, t)) / sqrt(α_t)
+2.2. Compute the sample for the previous timestep
+2.2.1. x_{t-1} = sqrt(alpha_bar_{t-1}) * x0_hat + sqrt(1 - alpha_bar_{t-1}) * eps_theta(x_t, t)
 
 Where:
-- \( \epsilon_\theta(x_t, t) \) is the predicted noise at step \(t\)
-- \( \alpha_t = 1 - \beta_t \)
-- \( \bar{\alpha}_t = \prod_{s=1}^t \alpha_s \)
-
+- eps_theta(x_t, t) = model-predicted noise at step t
+-  α_t = 1 - β_t
+-  alpha_bar_t = ∏_{s=1}^t α_s
 
 ---
 
