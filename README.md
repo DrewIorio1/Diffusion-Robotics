@@ -38,7 +38,7 @@ Key Formulas -
 NeurIPS 2020. [[Paper](https://arxiv.org/abs/2006.11239)]  
 15 Jun 2020
 
-Key Formulas - 
+Key Formulas : 
 1. Forward Diffusion Process : q(xt∣xt−1)=N(xt;1−βtxt−1,βtI)
 1.1. Where xt = noisy trajectory at timestep t
 1.2.       βt  = variance schedule controlling how much noise is added per step
@@ -50,6 +50,31 @@ Key Formulas -
 *Yang Song, Jascha Sohl-Dickstein, et al.*  
 ICLR 2021. [[Paper](https://arxiv.org/abs/2011.13456)]  
 24 Nov 2020
+
+Key Formulas :
+1.Forward Diffusion Process
+  1.1 q(xt∣ xt−1) = N (xt;√αtx0,(1 − αt)I);
+  1.2. xt = noisy sample at step t
+  1.3. βt  =  variance schedule
+2. **DDIM Reverse Process**
+
+First, predict the original clean image \( \hat{x}_0 \) from \( x_t \):
+
+\[
+\hat{x}_0(x_t, t) = \frac{x_t - \sqrt{1 - \alpha_t} \, \epsilon_\theta(x_t, t)}{\sqrt{\alpha_t}}
+\]
+
+Then, update from \( x_t \) to \( x_{t-1} \) (deterministic DDIM case, \( \sigma_t = 0 \)):
+
+\[
+x_{t-1} = \sqrt{\bar{\alpha}_{t-1}} \, \hat{x}_0(x_t, t) + \sqrt{1 - \bar{\alpha}_{t-1}} \, \epsilon_\theta(x_t, t)
+\]
+
+Where:
+- \( \epsilon_\theta(x_t, t) \) is the predicted noise at step \(t\)
+- \( \alpha_t = 1 - \beta_t \)
+- \( \bar{\alpha}_t = \prod_{s=1}^t \alpha_s \)
+
 
 ---
 
