@@ -8,6 +8,14 @@ A collection of resources and papers on Diffusion Models and Robotics using diff
 GitHub Pages 2023. [[Blog](https://vsehwag.github.io/blog/2023/2/all_papers_on_diffusion.html)] [[Code](https://github.com/VSehwag/minimal-diffusion)]  
 20 Feb 2023
 
+### Markov chain
+
+Wiki [[Post](https://en.wikipedia.org/wiki/Markov_chain)]
+
+Markov Chain is a sequence of events where the probability of each event depends only on the current state, not on any prior states. The Markov property is a core feature that underpins the forward process in the diffusion process. 
+
+
+
 ---
 
 ### **Sora by OpenAI (Video Diffusion Engine)**  
