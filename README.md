@@ -1,6 +1,20 @@
 # Diffusion-Robotics
 A collection of resources and papers on Diffusion Models and Robotics using diffusion
 
+## Early Reference to Diffusion
+
+### Geometry-Based Data Generation
+
+arXiv 2018 [[Paper](https://arxiv.org/abs/1802.04927)]
+
+---
+
+### Difnet: Semantic Segmentation by Diffusion Networks
+
+arXiv 2018 [[Paper](https://arxiv.org/abs/1805.08015)]
+
+---
+
 ## 📚 Diffusion Model Resources
 
 ### **Diffusion Resources**  
@@ -14,7 +28,14 @@ Wiki [[Post](https://en.wikipedia.org/wiki/Markov_chain)]
 
 Markov Chain is a sequence of events where the probability of each event depends only on the current state, not on any prior states. The Markov property is a core feature that underpins the forward process in the diffusion process. 
 
+### The Limits to Learning a Diffusion Model
 
+arxiv 2023 [[Paper](https://arxiv.org/abs/2006.06373)]
+
+---
+### Diffusion Theory
+
+Github [[Research] (https://github.com/mikonvergence/DiffusionFastForward/blob/master/notes/01-Diffusion-Theory.md)]
 
 ---
 
