@@ -25,6 +25,15 @@ Feb 2024
 
 ---
 
+
+### **Hierarchical Text-Conditional Image Generation with CLIP Latents (DALL·E 2)**  
+*OpenAI*  
+Open Access 2022. [[Research](https://openai.com/research/dall-e-2)]  
+Apr 2022
+
+
+---
+
 ## 📘 Diffusion Papers
 
 **Understanding Diffusion Models: A Unified Perspective** \
@@ -43,7 +52,7 @@ Key Formulas -
 
 ### **Denoising Diffusion Probabilistic Models (DDPM)**  
 *Jonathan Ho, Ajay Jain, Pieter Abbeel*  
-NeurIPS 2020. [[Paper](https://arxiv.org/abs/2006.11239)]  
+NeurIPS 2020. [[Paper](https://arxiv.org/abs/2006.11239)]  [[Code](https://github.com/hojonathanho/diffusion)]
 15 Jun 2020
 
 Key Formulas : 
@@ -56,7 +65,7 @@ Key Formulas :
 
 ### **Score-Based Generative Modeling through Stochastic Differential Equations**  
 *Yang Song, Jascha Sohl-Dickstein, et al.*  
-ICLR 2021. [[Paper](https://arxiv.org/abs/2011.13456)]  
+ICLR 2021. [[Paper](https://arxiv.org/abs/2011.13456)]  [[Code](https://github.com/yang-song/score_sde)]
 24 Nov 2020
 
 Key Formulas :
@@ -79,7 +88,7 @@ Where:
 
 ### **Denoising Diffusion Implicit Models (DDIM)**  
 *Jiaming Song, Chenlin Meng, Stefano Ermon*  
-ICLR 2021. [[Paper](https://arxiv.org/abs/2010.02502)]  
+ICLR 2021. [[Paper](https://arxiv.org/abs/2010.02502)] [[Code](https://github.com/ermongroup/ddim)]
 6 Oct 2020
 
 ---
@@ -91,16 +100,9 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2205.11487)]
 
 ---
 
-### **Hierarchical Text-Conditional Image Generation with CLIP Latents (DALL·E 2)**  
-*OpenAI*  
-Open Access 2022. [[Research](https://openai.com/research/dall-e-2)]  
-Apr 2022
-
----
-
 ### **High-Resolution Image Synthesis with Latent Diffusion Models**  
 *Robin Rombach et al.*  
-CVPR 2022. [[Paper](https://arxiv.org/abs/2112.10752)]  
+CVPR 2022. [[Paper](https://arxiv.org/abs/2112.10752)]  [[Code](https://github.com/CompVis/latent-diffusion)]
 20 Dec 2021
 
 Introduced Latent Diffusion, enabling high-resolution generation with reduced computational cost. Backbone of Stable Diffusion.
@@ -109,7 +111,7 @@ Introduced Latent Diffusion, enabling high-resolution generation with reduced co
 
 ### **ControlNet: Adding Conditional Control to Text-to-Image Diffusion Models**  
 *Lvmin Zhang, Maneesh Agrawala (Stanford)*  
-arXiv 2023. [[Paper](https://arxiv.org/abs/2302.05543)]  
+arXiv 2023. [[Paper](https://arxiv.org/abs/2302.05543)]  [[Code](https://github.com/lllyasviel/ControlNet)]
 10 Feb 2023
 
 
@@ -117,14 +119,14 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2302.05543)]
 
 ### **Diffusion Policies: Visuomotor Decision Making via Diffusion Probabilistic Models**  
 *Alex Ichter et al. (Stanford, Google DeepMind)*  
-ICLR 2023. [[Paper](https://arxiv.org/abs/2209.07245)]  
+ICLR 2023. [[Paper](https://arxiv.org/abs/2209.07245)]  [[Survey](https://github.com/apexrl/Diff4RLSurvey?tab=readme-ov-file)]
 15 Sep 2022
 
 ---
 
 ### **Video Diffusion Models**  
 *Jonathan Ho et al.*  
-arXiv 2024. [[Paper](https://arxiv.org/abs/2304.08818)]  
+arXiv 2024. [[Paper](https://arxiv.org/abs/2304.08818)]  [[Code](https://github.com/lucidrains/video-diffusion-pytorch?tab=readme-ov-file)]
 17 Apr 2023
 
 
@@ -132,16 +134,14 @@ arXiv 2024. [[Paper](https://arxiv.org/abs/2304.08818)]
 
 ### **Consistency Models**  
 *Yang Song, Diederik Kingma, et al.*  
-NeurIPS 2023. [[Paper](https://arxiv.org/abs/2303.01469)]  
+NeurIPS 2023. [[Paper](https://arxiv.org/abs/2303.01469)]  [[Code](https://github.com/openai/consistency_models)]
 3 Mar 2023
 
 ---
 
 ### **AudioLM: A Language Modeling Approach to Audio Generation**  
 *Google Research*  
-NeurIPS 2023. [[Paper](https://arxiv.org/abs/2209.03143)]  
+NeurIPS 2023. [[Paper](https://arxiv.org/abs/2209.03143)]  [[Code](https://github.com/lucidrains/audiolm-pytorch)]
 7 Sep 2022
-
-
 
 ---
