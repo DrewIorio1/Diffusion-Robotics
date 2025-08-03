@@ -28,6 +28,11 @@ Wiki [[Post](https://en.wikipedia.org/wiki/Markov_chain)]
 
 Markov Chain is a sequence of events where the probability of each event depends only on the current state, not on any prior states. The Markov property is a core feature that underpins the forward process in the diffusion process. 
 
+
+### Diffusion Models in NLP: A Survey 
+
+arXiv 2023. [[Paper](https://arxiv.org/abs/2303.07576)]
+
 ### The Limits to Learning a Diffusion Model
 
 arxiv 2023 [[Paper](https://arxiv.org/abs/2006.06373)]
