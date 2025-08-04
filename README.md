@@ -28,6 +28,9 @@ Wiki [[Post](https://en.wikipedia.org/wiki/Markov_chain)]
 
 Markov Chain is a sequence of events where the probability of each event depends only on the current state, not on any prior states. The Markov property is a core feature that underpins the forward process in the diffusion process. 
 
+### Deep Unsupervised Learning using Nonequilibrium Thermodynamics
+
+arxiv 2015 [[Paper](https://arxiv.org/abs/1503.03585)]
 
 ### Diffusion Models in NLP: A Survey 
 
@@ -94,11 +97,16 @@ Key Formulas :
 ICLR 2021. [[Paper](https://arxiv.org/abs/2011.13456)]  [[Code](https://github.com/yang-song/score_sde)]
 24 Nov 2020
 
+Unified diffusion and score-matching by modeling sampling as a continuous stochastic differential equation (SDE), resulting in more versatile denoising trajectories.
+
 Key Formulas :
 1.Forward Diffusion Process
   1.1 q(xt∣ xt−1) = N (xt;√αtx0,(1 − αt)I);
   1.2. xt = noisy sample at step t
   1.3. βt  =  variance schedule
+
+
+  
 2. **DDIM Reverse Process**
 2.1. Predict the original clean image (x0_hat) from noisy sample x_t:
 2.1.1 x0_hat = (x_t - sqrt(1 - α_t) * eps_theta(x_t, t)) / sqrt(α_t)
@@ -112,11 +120,27 @@ Where:
 
 ---
 
-### **Denoising Diffusion Implicit Models (DDIM)**  
+### Denoising Diffusion Implicit Models (DDIM)  
 *Jiaming Song, Chenlin Meng, Stefano Ermon*  
 ICLR 2021. [[Paper](https://arxiv.org/abs/2010.02502)] [[Code](https://github.com/ermongroup/ddim)]
 6 Oct 2020
 
+---
+
+### Diffusion Models Beat GANs on Image Synthesis
+*Prafulla Dhariwal et al (openai)∗
+arXiv 2021 [[Paper](https://arxiv.org/pdf/2105.05233)]
+
+Demonstrated that diffusion models can outperform GANs in image quality by optimizing noise schedule and using classifier-free guidance.
+---
+
+### DiffWave: A Versatile Diffusion Model for Audio Synthesis
+*Kong et al.*
+arXiv 2021 [[Paper](https://arxiv.org/abs/2009.09761)] [[Code](https://github.com/lmnt-com/diffwave)]
+
+Extended diffusion modeling to audio, demonstrating high-quality waveform generation and inspiring subsequent research in speech and music synthesis.
+
+Extended diffusion modeling to audio, demonstrating high-quality waveform generation and inspiring subsequent research in speech and music synthesis.
 ---
 
 ### **Imagen: Photorealistic Text-to-Image Generation with Deep Language Understanding**  
