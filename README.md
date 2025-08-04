@@ -195,3 +195,38 @@ NeurIPS 2023. [[Paper](https://arxiv.org/abs/2209.03143)]  [[Code](https://githu
 7 Sep 2022
 
 ---
+
+## Diffusion Robotics Path Planning
+
+### Motion Planning with Diffusion Maps
+* Yu Fan Chen et al. (IROS 2016) *
+
+
+---
+### Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
+* Qiyang Li, Gino Brunner, Pulkit Agrawal (RSS 2023) *
+
+---
+### SGM: Goal-Conditioned Imitation Learning Using Score-Based Diffusion Policies
+* Yuzhe Chen, Stefano Ermon (RSS 2023) *
+
+---
+### DiPPeST: Diffusion-Based Path Planner for Synthesizing Trajectories Applied on Quadruped Robots
+* Maria Stamatopoulou et al. (arXiv:2405.19232) *
+
+---
+### Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation
+* Ziyu Zhou et al. (RSS 2024) *
+
+---
+### ManiCM: Real-Time 3D Diffusion Policy via Consistency Model for Robotic Manipulation
+* Kai Liu, Chen Gao, Mike Zheng Shou (Sep 2024) *
+
+---
+### Learning Robotic Manipulation Policies from Point Clouds with Conditional Flow Matching
+* Ravi Patel, Lina Zhang, Omar Figueroa (Jan 2025) *
+
+---
+
+
+
